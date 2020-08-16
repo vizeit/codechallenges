@@ -35,3 +35,4 @@ class json:
 if __name__ == "__main__":
     j = json()
     print(j.dumps({1:2,3:[4,5],7:'test',10:4.8}))
+    print(j.dumps([1, 'test', 3.4]))
